@@ -2,11 +2,17 @@
 import './App.css';
 import React from "react";
 import 'bootstrap/dist/css/bootstrap.min.css';
+import Navbar from "./components/Navbar";
+import Header from './components/Header';
+import Home from "./components/Home";
+
 
 function App() {
   return (
     <div className="App">
-      <h1>Portfolio website</h1>
+      <Navbar />
+      <Header />
+      <Home/>
     </div>
   );
 }
