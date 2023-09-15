@@ -4,7 +4,7 @@ import React from "react";
 import 'bootstrap/dist/css/bootstrap.min.css';
 import Navbar from "./components/Navbar";
 import Header from './components/Header';
-import Home from "./components/Home";
+import About from "./components/About"
 
 
 function App() {
@@ -12,7 +12,8 @@ function App() {
     <div className="App">
       <Navbar />
       <Header />
-      <Home/>
+      <About/>
+
     </div>
   );
 }

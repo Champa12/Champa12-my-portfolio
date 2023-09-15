@@ -2,7 +2,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Outfit:wght@100;200;300;400;500;600;700;800;900&display=swap');
 
 body {
-  font-family: "Roboto Condesed", sans-serif;
+  font-family: "Roboto Condesed", sans-serif !important;
 }
 
 :root {
@@ -43,7 +43,7 @@ nav ul li a:focus{
 
 /*************************** Header ************************/
 .main-info h1{
-  color: var(--primary-white);
+  color: var(--primary-orange);
   text-align: center;
 }
 .header-wraper {
@@ -58,4 +58,27 @@ nav ul li a:focus{
 }
 .main-info button:hover{
   background-color: var(--primary-orange)!important;
+}
+
+/*************************** About me ************************/
+.photo-wrap{
+  display:flex;
+  justify-content: center;
+  align-items:center;
+}
+.profile{
+  border-radius: 50%;
+  width: 16rem;
+  padding:.3rem;
+  border: 1px solid var(--primary-orange);
+}
+.about-heading {
+  color: var(--primary-orange);
+  text-transform: uppercase;
+
+}
+@media(max-width: 460px) {
+  .profile{
+    width:10rem;
+  }
 }
