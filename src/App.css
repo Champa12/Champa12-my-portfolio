@@ -8,11 +8,11 @@ body {
 :root {
   --primary-white: #fff;
   --primary-gray:gray;
-  --primary-light-gray:rgb(194, 184, 184);
+  --primary-light-gray:#e9dede;
   --primary-dark-gray:rgb(66, 63, 63);
   --primary-orange: orange;
   --primary-red: red; 
-  --primary-dark: rgba(255,255,255,0);
+  --primary-dark: rgba(8, 0, 0, 0);
   --primary-hover-red: red; 
 
 }
@@ -167,4 +167,89 @@ nav ul li a:focus{
     width: 100%;
   }
 
+}
+/************** Project *************/
+.img { 
+    width: 100%;
+    height: 50%;
+}
+.project{
+   text-align: center;
+   padding-bottom: 2rem;
+   background: var(--primary-light-gray);
+}
+.project h1{
+  text-transform: uppercase;
+  color: var(--primary-orange);
+}
+
+.project .box {
+  height:32rem;
+  border-bottom: 5px solid var(--primary-orange);
+  background: var(--primary-white);
+}
+
+.project .box:hover{
+   background: var(--primary-orange);
+}
+.project .box:hover h3{
+   color: var(--primary-white);
+}
+
+/************** Contact *************/
+
+.contact{
+  background: var(--primary-gray);
+  padding: 3rem 0;
+}
+.contact h1 {
+  color: var(--primary-orange);
+  padding: 1.3rem 0;
+  text-transform: uppercase;
+}
+.contact p {
+  color: var(--primary-light-gray);
+  font-size: 1.2rem;
+}
+.sub-button:hover {
+   background: var(--primary-orange);
+}
+
+.contact input, .contact textarea{
+  width:100%;
+  box-sizing:border-box;
+  background: none;
+  resize:none;
+  border:0;
+  border-bottom: 0.125rem solid var(--primary-light-gray);
+  border-radius: 0;
+  color: var(--primary-gray);
+  outline: 0 !important;
+  box-shadow:none !important;
+  top: 0;
+  padding-left: 1rem;
+}
+.contact textarea{
+  padding: 2rem;
+}
+.contact .container {
+  padding: 4rem 0;
+}
+
+.contact input:focus, .contact textarea:focus{
+  background: transparent;
+  color: var(--primary-orange);
+  border-bottom: 0.125rem solid var(--primary-dark-gray);
+}
+.contact-btn {
+  margin: 1rem 0 0 0;
+  width: 100%;
+  background: none;
+}
+
+/************** Contact Media*************/
+@media(max-width: 760px){
+  .contact .container {
+    padding: 0 1rem;
+  }
 }
