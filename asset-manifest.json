@@ -1,0 +1,17 @@
+{
+  "files": {
+    "main.css": "/Champa12-my-portfolio/static/css/main.74305c59.css",
+    "main.js": "/Champa12-my-portfolio/static/js/main.a841eaed.js",
+    "static/js/787.128fc6e9.chunk.js": "/Champa12-my-portfolio/static/js/787.128fc6e9.chunk.js",
+    "static/media/logo.PNG": "/Champa12-my-portfolio/static/media/logo.ec20f777ea369538b3bf.PNG",
+    "static/media/backgroundImage.jpg": "/Champa12-my-portfolio/static/media/backgroundImage.3268ee07802f2477ae73.jpg",
+    "index.html": "/Champa12-my-portfolio/index.html",
+    "main.74305c59.css.map": "/Champa12-my-portfolio/static/css/main.74305c59.css.map",
+    "main.a841eaed.js.map": "/Champa12-my-portfolio/static/js/main.a841eaed.js.map",
+    "787.128fc6e9.chunk.js.map": "/Champa12-my-portfolio/static/js/787.128fc6e9.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.74305c59.css",
+    "static/js/main.a841eaed.js"
+  ]
+}
