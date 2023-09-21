@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import emailjs from '@emailjs/browser';
+import emailjs from "@emailjs/browser";
 import { useForm } from "react-hook-form";
 
 const Contact = () => {
@@ -127,7 +127,7 @@ const Contact = () => {
                 <textarea
                   type="text"
                   className="form-control"
-                  placeholder="Please describe shortly you project..."
+                  placeholder="Please describe shortly your project..."
                   name="description"
                   {...register("description", {
                       required: "Please describe shortly your project needs...",
